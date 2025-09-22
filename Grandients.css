@@ -1,0 +1,42 @@
+/* Grandients
+linear-grandients(Direction || Angle, Color stop1, Color stop2, ........ */
+
+.gran {
+    background-image: linear-gradient(to right, rgb(146, 175, 255), rgb(253, 160, 197));
+    width: 800px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boo::before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 0;
+    width: 100%;
+    background-color: blueviolet;
+    height: 10px;
+    background-image: linear-gradient(to right,
+            rgb(146, 175, 255) 20%,
+            rgb(253, 160, 197) 20%,
+            rgb(253, 160, 197) 40%,
+            rgb(146, 175, 255) 40%,
+            rgb(146, 175, 255) 60%,
+            rgb(253, 160, 197) 60%,
+            rgb(253, 160, 197) 80%,
+            rgb(146, 175, 255) 80%);
+}
+
+.boo {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eee;
+    margin: 20px auto;
+    padding: 10px;
+}

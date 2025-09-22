@@ -1,0 +1,14 @@
+ul {
+    /* list-style: type position image; */
+    list-style-type: lower-greek;
+    list-style-position: inside;
+}
+
+li {
+    background-color: rgb(200, 168, 212);
+    margin-bottom: 10px;
+}
+
+h2 {
+    background-color: rgb(86, 56, 98);
+}

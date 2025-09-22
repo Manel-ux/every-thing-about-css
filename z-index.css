@@ -1,0 +1,24 @@
+div {
+    padding: 10px;
+    width: 100px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    position: absolute;
+}
+
+.one {
+    background-color: rgb(255, 255, 132);
+    left: 30px;
+    top: 30px;
+    z-index: 1;
+}
+
+.two {
+    background-color: rgb(145, 204, 255);
+    left: 20px;
+    top: 20px;
+}
+
+.three {
+    background-color: rgb(165, 255, 143);
+}

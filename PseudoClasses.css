@@ -1,0 +1,134 @@
+.one {
+    background-color: rgb(210, 144, 204);
+}
+
+.two {
+    background-color: rgb(156, 110, 180);
+    width: 100px;
+    height: 100px;
+}
+
+a {
+    color: rgb(5, 5, 240);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(203, 5, 203);
+}
+
+body {
+    font-size: xx-large;
+}
+
+.ch:checked+label {
+    color: rgb(203, 5, 203);
+}
+
+a:visited {
+    color: red;
+}
+
+div:empty {
+    border: 5px solid rgb(121, 2, 121);
+}
+
+.in {
+    border: 2px solid palevioletred;
+}
+
+.in:focus {
+    border-color: rgb(252, 18, 96);
+    outline: none;
+}
+
+.three::first-letter {
+    color: palevioletred;
+    font-size: 50px;
+}
+
+.four::first-line {
+    color: palevioletred;
+}
+
+::selection {
+    color: rgb(169, 0, 84);
+    background-color: rgb(232, 158, 183);
+}
+
+.pro {
+    margin-bottom: 20px;
+    overflow: hidden;
+    counter-increment: members;
+}
+
+.five {
+    background-color: rgb(255, 170, 195);
+    pad: 10px;
+    width: 1050px;
+    float: left;
+    position: relative;
+}
+
+.user {
+    background-color: rgb(212, 95, 134);
+    width: 50px;
+    margin-right: 40px;
+    margin-top: 18px;
+    padding: 10px;
+    height: 55.5px;
+    float: left;
+    font-size: 50px;
+    text-align: center;
+}
+
+hr {
+    margin: 20px 0;
+}
+
+.five::after {
+    content: counter(members);
+    position: absolute;
+    width: 25px;
+    height: 110px;
+    right: -10px;
+    top: 0;
+    text-align: center;
+    margin-left: 100px;
+    padding-top: 35px;
+    background-color: rgb(223, 78, 126);
+}
+
+.five::before {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: -45px;
+    top: 50%;
+    margin-top: -15px;
+    border-width: 15px;
+    border-style: solid;
+    border-color: transparent rgb(223, 78, 126) transparent transparent;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    position: relative;
+}
+
+ul li::before {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: -30px;
+    top: 50%;
+    margin-top: -10px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent rgb(223, 78, 126) transparent transparent;
+}

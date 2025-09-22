@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+}
+
+/* displey: flex => to start flexible box
+flex-direction: row => default value 
+row-reverse => change only the direction not all the page
+column => horizontal way
+flex-wrap: nowrap => default value
+flex-wrap: wrap-reverse 
+flex-flow: [Flex-Direction] + [Flex-Wrap]*/
+.flex {
+    display: flex;
+    background-color: #eee;
+    width: 600px;
+    padding: 20px;
+    margin: 20px auto;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    /* flex-flow: row nowrap; */
+    justify-content: flex-start;
+    justify-content: space-between;
+    /* justify-content: space-around; after and before ex for ONE (1% before 2% after) */
+    /* justify-content: space-evenly; both between and around (1%  before 1% after) */
+    /* align-items:stretch; if we define a height of two elemnt the rest of the elment gonna take the bigger height  */
+    /* align-content: stretch; for the parent (the whole content)*/
+    /* align-items: flex-start; put them on top by respecting the space between them */
+    /* align-content: flex-start; put the whole content on top without respecting the space  */
+    /* if you didn't get it imagine that we make the width of the box smaller so hadik ziyada thawd taht w ykoun kayn space bin lfoug w taht that's the space that i'm talking about so rea it again) */
+}
+
+.float {
+    overflow: hidden;
+    background-color: #eee;
+    width: 600px;
+    padding: 20px;
+    margin: 20px auto;
+}
+
+.flex div {
+    background-color: bisque;
+    color: black;
+    width: calc(96%/5);
+    text-align: center;
+    padding: 20px;
+}
+
+.float div {
+    background-color: bisque;
+    color: black;
+    float: left;
+    width: calc(90%/5);
+    text-align: center;
+    padding: 20px;
+    margin-left: 1%;
+    margin-right: 1%;
+    /* if we want the space to be around (before and after wich means we want 10% space) */
+}
+
+/* .one {
+    margin-left: 1%;
+    margin-right: 1%;
+    if we want the space to be between 
+} */
+
+/* jjustify-content: flex-start => default value
+it means yla kan kayn un element ziyada ghadi yji taht mais ybda m lwl
+ for ex hna yji one hta l four ge3 f row wahd ki yb9a five ziyada yji taht l one w can d'autre options 
+ (flex-center / flex-end */
+
+.center {
+    background-color: rgb(155, 161, 227);
+    height: 300px;
+    width: 500px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    /* like text-align */
+    align-items: center;
+    /* if we don't have a flexiable box (line height:the height of the box / taxt-aline:center*/
+}

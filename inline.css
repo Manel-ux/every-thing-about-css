@@ -1,0 +1,13 @@
+/* Inline
+-do not respect width a,d height
+-respect paddin and margin only from the left and right
+-do not add line break
+-allow elements before and after it
+*/
+span {
+    background-color: rgb(130, 172, 235);
+    padding: 30px;
+    margin: 10px;
+    height: 70px;
+    width: 70px;
+}

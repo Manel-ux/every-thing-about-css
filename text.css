@@ -1,0 +1,34 @@
+div {
+    /* ---------------------text color and shadow------- */
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(141, 35, 239);
+    padding: 50px;
+    margin: 40px;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 1px 1px rgb(141, 35, 239);
+    /*           x y shadow color  */
+    /* ---------------------text alingment --------------*/
+    text-align: center;
+    direction: ltr;
+    /* ---------------------text decoration------------- */
+    text-decoration: underline;
+    text-transform: capitalize;
+    /* ---------------------text spacing---------------- */
+    letter-spacing: 1px;
+    /* text-indent: 10px; the space before the paragraph*/
+    /* line-height: 1.7px;the space between lines */
+    word-spacing: 1px;
+    white-space: nowrap;
+    /* when we have a spacified width and we don't want the paragraph content to wrap  */
+    word-break: break-word;
+    /* to do a braek when the context of the paragraph get out f the box */
+    /* ----------------------text overflow-------------- */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* when we hide the overflow the ellipsis will tell us that there is a hidden content in this paragraph by dots(...)*/
+}
+
+/* ----------------------inherence------------------ */
+div p {
+    border: inherit;
+}

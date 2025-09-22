@@ -1,0 +1,42 @@
+.two {
+    background-color: rgb(82, 189, 255);
+}
+
+div {
+    color: rgb(255, 255, 255);
+    width: 100px;
+    padding: 10px;
+}
+
+.one {
+    background-color: rgb(255, 0, 136);
+    position: absolute;
+}
+
+.pro {
+    width: 500px;
+    height: 300px;
+    background-color: rgb(254, 172, 216);
+    position: relative;
+}
+
+.three {
+    background-color: rgb(107, 189, 125);
+    position: fixed;
+}
+
+body {
+    height: 50000px;
+}
+
+.Sticky {
+    position: sticky;
+    top: 0;
+    background-color: rgb(167, 100, 167);
+    width: inherit;
+}
+
+p {
+    background-color: antiquewhite;
+    padding: 10px;
+}

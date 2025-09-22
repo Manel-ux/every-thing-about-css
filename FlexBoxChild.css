@@ -1,0 +1,39 @@
+    /* flex-grow: 0; Default value */
+    /* flex-shrink: 1; Default value */
+    /* order:0; Default value 
+    if we want to change an element place we should change the elment that it will take it place*/
+    /* flexbasis:auto; Default value */
+    /* flexbasis: value; */
+    /* if we change the direction of the flex container (ex: 300px and the first direction was row the 300 px is for the width and we change it to colmun it will be for the height)  */
+    /* flex: [flex grow] [flex shrink] [flex basis] 0 1 auto */
+    /* align-self:auto */
+    .flex div {
+        background-color: blueviolet;
+        color: aliceblue;
+        width: 80px;
+        text-align: center;
+        padding: 20px;
+        margin-right: 5px;
+        flex-grow: 1;
+        /* to fit in the flex container */
+
+    }
+
+    .flex {
+        background-color: antiquewhite;
+        width: 800px;
+        padding: 20px;
+        margin: 20px auto;
+        display: flex;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    .child {
+        flex-grow: 2;
+        /* if there is a space it will grow 2times more space the the other boxes */
+        flex-shrink: 3;
+        /* if the width of the elements increases it will take the priority to get small first  */
+    }

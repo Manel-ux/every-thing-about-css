@@ -1,0 +1,12 @@
+/*
+BLOCK: 
+- take full width if there's no width
+-add line break
+-respect padding marin width height
+ */
+div {
+    background-color: rgb(215, 173, 215);
+    padding: 30px;
+    margin: 10px;
+    height: 20px;
+}

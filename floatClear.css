@@ -1,0 +1,22 @@
+.pro {
+    background-color: burlywood;
+    /* opacity */
+    padding: 10px;
+}
+
+.pro div {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: coral;
+    width: 25%;
+    float: left;
+}
+
+p {
+    background-color: aquamarine;
+}
+
+.clear {
+    clear: both;
+}

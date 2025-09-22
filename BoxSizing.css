@@ -1,0 +1,24 @@
+/* * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+} */
+
+.parent {
+    width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    overflow: hidden;
+    background-color: rgb(247, 130, 188);
+}
+
+.one {
+    background-color: rgb(252, 166, 209);
+    width: 300px;
+    float: left;
+    padding: 10px;
+    border: 10px solid rgb(255, 199, 232);
+    box-sizing: border-box;
+}
+
+/* bordr box yrja3 width w height includes padding and border*/

@@ -1,0 +1,33 @@
+/* [1] Margin collapse works only with vertical margin
+   [2] The biggest margin wins
+   [3] If the is something between the elements the collapse doesn't work
+   [4] Nesting does not prevent collapsing (if we take the UP and place it in a dev parent not the one that we have here just a random dev parent )*/
+.parent {
+    overflow: hidden;
+    margin: auto;
+    width: 400px;
+    height: 200px;
+    padding: 10px;
+    background-color: #df9191;
+}
+
+.parent .one,
+.parent .two {
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+
+.down {
+    background-color: blueviolet;
+    color: white;
+    height: 90px;
+    margin-top: 20px;
+}
+
+.up {
+    background-color: cadetblue;
+    color: white;
+    height: 90px;
+    margin-bottom: 20px;
+}

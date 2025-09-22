@@ -1,0 +1,12 @@
+/* INLINEBLOCK
+-allow elements before and after it
+-respect paddin margin width height
+ */
+span {
+    background-color: rgb(134, 99, 168);
+    display: inline-block;
+    padding: 30px;
+    margin: 10px;
+    width: 90px;
+    height: 20px;
+}

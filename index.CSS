@@ -1,0 +1,58 @@
+/* this is a comment */
+.special {
+    color: blueviolet;
+    font-size: 20px;
+}
+
+/* inline style */
+p {
+    color: red;
+}
+
+p {
+    color: green;
+}
+
+/* color test */
+div {
+
+    background-color: blue;
+    /* color name */
+    background-color: rgb(0, 0, 255/50%);
+    /*red blue green Alpha channel*/
+    background-color: #0000FF;
+    /* color hex code */
+    background-image: url("../imgs/topcpkckzzzeksd");
+    /* .. bech nokhorjou mel folder mi rana fih w /imgs bech nroho l folder te3 imgs  */
+    background-repeat: repeat;
+    /* to repeat the img in the paragraphs */
+    background-repeat: no-repeat;
+    /* to not repeat just as a backgroud */
+    background-repeat: repeat-x;
+    /* repeat it only in the x line  */
+    background-repeat: repeat-y;
+    /* repeat it only in the y line */
+    background-attachment: scroll;
+    /* tetmecha mea l paragraph ki nhawdou ykoun kayn l paragraph w l backgroud las9a fih  */
+    background-attachment: fixed;
+    /* tkoun only as a backgroud ki nhawdou ykoun ghi l paragraph yhawd */
+    background-position: left top;
+    background-position: left center;
+    background-position: left bottom;
+    background-position: center;
+    background-position: right;
+    /* if we only write left or center or right it will be automatically in the center */
+    background-position: 100px 200px;
+    /* 100 from the left 200 from top */
+    background-position: 30% 20%;
+    /* the same */
+    background-size: auto;
+    /* in the real size of the image comme si madernahach */
+    background-size: cover;
+    /* it we cover all the paragraph */
+    background-size: contain;
+    /* tkbr w tsghar koul ma nsaghrou la page */
+    background-size: 100% 100%;
+    /* high and weight */
+
+}

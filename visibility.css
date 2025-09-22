@@ -1,0 +1,11 @@
+div {
+    background-color: blanchedalmond;
+    margin: 50px;
+    padding: 30px;
+    /* display: none; to no show it */
+}
+
+.f {
+    visibility: hidden;
+    /* invisibility it shows there empty place */
+}

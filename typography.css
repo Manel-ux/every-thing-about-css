@@ -1,0 +1,55 @@
+.avec-serf {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.sans-serf {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.avec-serf,
+.sans-serf {
+    background-color: rgb(79, 127, 149);
+    padding: 20px;
+    margin: 40px;
+    font-size: 50px;
+    /* DEFAULT FONT SIZE FOR WEB PAGE IS 16px */
+}
+
+body {
+    font-size: 40px;
+}
+
+span {
+    font-size: 3em;
+    /* em=>time */
+}
+
+.rem {
+    font-size: 2rem;
+    /* rem=> root time */
+    /* DEFAULT rem IS ROOT SIZE * 2 (HTML FONT SIZE)  */
+}
+
+.vw {
+    font-size: 2vw;
+    /* vw=> view width 1% from view port size  */
+}
+
+/* CSS Units
+   px
+   em
+   rem 
+   percentage 
+   vw*/
+.style {
+    font-style: italic;
+}
+
+.variant {
+    font-variant: small-caps;
+}
+
+.weight {
+    font-weight: bold;
+    /* cursor: pointer; */
+}

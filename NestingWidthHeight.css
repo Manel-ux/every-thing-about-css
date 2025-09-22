@@ -1,0 +1,13 @@
+div p {
+    background-color: rgb(223, 0, 112);
+    width: 400px;
+    padding: 10px;
+    min-height: 300px;
+}
+
+.paragraph {
+    min-width: 20px;
+    background-color: blueviolet;
+    max-height: 90px;
+    padding: 10px;
+}

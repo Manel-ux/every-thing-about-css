@@ -1,0 +1,24 @@
+/* grid-column=> grid-column-start/grid-column-end
+   grid-row
+   grid-erea=> grid-row-s/grid-column-s/grid-row-e/grid-column-e */
+* {
+    box-sizing: border-box;
+}
+
+.parent {
+    margin: 20px auto;
+    width: 500px;
+    background-color: #eee;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(75px, 1fr));
+    /* grid-template-columns: repeat(6,1fr); */
+    gap: 10px 10px;
+}
+
+.parent div {
+    background-color: powderblue;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}

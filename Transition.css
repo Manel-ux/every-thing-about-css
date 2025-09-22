@@ -1,0 +1,30 @@
+.one {
+    background-color: beige;
+    width: 200px;
+    height: 200px;
+    padding: 77px;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    border-width: 2px;
+    box-sizing: border-box;
+    transition-duration: 1s;
+    transition-delay: 0.5s;
+    transition-property: margin-left, margin-top;
+    transition-timing-function: ease;
+    /*ease=> ybda bchwya, ykhof, ywli bchwya 
+    linear=> koulchi kifkif ybda w ywli b same speed
+    ease-in=> ybda bchwya
+    ease-out=> ywli bchwya
+    ease-in-out=> ybda bchwya w ywli bchwya*/
+    transition: margin-left 1s, margin-top 2s;
+    transition: all 2s 0.5s linear;
+    /* proprety=> all
+    duration=> 2s
+    timin-function=> linear
+    delay=> 0.5s */
+}
+
+.one:hover {
+    margin-left: 50px;
+    margin-top: 50px;
+}
